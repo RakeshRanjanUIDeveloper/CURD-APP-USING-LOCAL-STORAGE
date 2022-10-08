@@ -18,22 +18,59 @@ h2{
     color: #fff;
 }
 .app-container{
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
-    width: 80vw;
+    width: 50vw;
 }
-.form-container{
-    height: 80vh;
-    width: 40%;
-    background-color: #fff0f5;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+form div label{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2vw;
 }
-.output-container{
-    height: 80vh;
-    width: 60%;
-    background-color: #fff0f5;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+input[type=text], input[type=number] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+
+input[type=submit] {
+    width: 18%;
+    background-color: #43d1c3;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1vw;
+}
+form div{
+    padding: 10px 0 0 10px;
+}
+form div.form-action-buttons{
+    text-align: center;
+}
+button {
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 8px;
+    margin: 10px;
+    width: 80%;
+}
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1.2vw;
+    padding: 8px;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+}
+  tr:hover {background-color: #D6EEEE;}
+  tr:hover td{
+    color: #000;
+  }
